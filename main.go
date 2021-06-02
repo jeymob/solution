@@ -82,7 +82,7 @@ func (val *CurrencysMap) MinMaxAverage() {
 	}
 	fmt.Println(infoMax.Value, infoMax.CharCode, dayMax)
 	fmt.Println(infoMin.Value, infoMin.CharCode, dayMin)
-	fmt.Printf("%.4f", average/float64(count))
+	fmt.Printf("%.4f\n", average/float64(count))
 }
 
 func main() {
